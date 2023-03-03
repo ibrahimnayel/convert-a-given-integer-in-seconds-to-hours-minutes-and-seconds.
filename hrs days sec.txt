@@ -1,0 +1,8 @@
+int main() {
+    int x;
+    printf("input");
+    scanf("%d",&x);
+    printf("%d ; ",x/3600);
+     printf("%d ; ",(x%3600)/60);
+      printf("%d  ",(x%3600)%60);
+}
